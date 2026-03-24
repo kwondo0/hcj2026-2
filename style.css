@@ -1,13 +1,14 @@
 * {
   box-sizing: border-box;
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
 body {
+  color: #333;
   background-color: linen;
+  font-size: 18px;
   line-height: 1.5;
-  font-size: 20px;
 }
 
 ul {
@@ -17,7 +18,7 @@ ul {
 .container {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 0px 30px;
 }
 
 .main {
@@ -51,12 +52,12 @@ ul {
 .navbar a {
   color: white;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
 }
 
 .navbar a:hover {
-  border-bottom: 2px #aaa solid;
+  border-bottom: 2px #fff solid;
   color: #aaa;
 }
 
@@ -67,15 +68,15 @@ ul {
 
 button {
   padding: 5px 10px;
-  margin: 10px;
+  margin: 5px;
   font-size: large;
-  font-style: italic;
+  font-weight: bold;
   background-color: lightgray;
-  border-width: 1px;
-  border-radius: 10px;
+  border-width: 1;
+  border-radius: 5px;
 }
 
 button:hover {
   color: red;
-  background-color: aquamarine;
+  background-color: rgb(235, 235, 94);
 }
